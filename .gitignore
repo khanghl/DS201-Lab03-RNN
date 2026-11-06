@@ -1,0 +1,37 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets, archives, and reference handouts (excluded from public repo)
+data/
+artifacts/
+Lab 3.docx
+Lab3-ThucHanh.ipynb
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Checkpoints & training outputs
+outputs/
+checkpoints/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# Environments & OS/IDE files
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
