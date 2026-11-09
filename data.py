@@ -71,7 +71,7 @@ def ensure_datasets(data_dir: str | Path = "data") -> Path:
 def load_raw_datasets(data_dir: str | Path = "data"):
     """Doc du lieu UIT-VSFC (JSON array) va PhoNER syllable (JSON Lines):
         - UIT-VSFC: chi dung sentence va sentiment (3 lop), khong dung topic
-        - PhoNER  : giu nguyen danh sach words va tags da tach san theo syllable
+        - PhoNER : giu nguyen danh sach words va tags da tach san theo syllable
     """
     root = ensure_datasets(data_dir)
     vsfc, ner = {}, {}

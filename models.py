@@ -28,8 +28,8 @@ def rnn_layer_params_formula(
 #Bai 1, Bai 2 & Bai 4*: Mang hoi quy phan loai cam xuc UIT-VSFC (LSTM / GRU nhieu lop + packing)
 class TextClassifier(nn.Module):
     """Mo hinh phan loai van ban hoi quy tren UIT-VSFC (3 lop sentiment):
-        - Bai 1 : kind='LSTM', emb_dim=300, hidden_size=256, num_layers=5, dropout=0.3
-        - Bai 2 : kind='GRU',  emb_dim=300, hidden_size=256, num_layers=5, dropout=0.3
+        - Bai 1: kind='LSTM', emb_dim=300, hidden_size=256, num_layers=5, dropout=0.3
+        - Bai 2: kind='GRU',  emb_dim=300, hidden_size=256, num_layers=5, dropout=0.3
         - Bai 4*: kind='LSTM', num_layers in {1, 2, 5} de khao sat anh huong do sau
     """
 
